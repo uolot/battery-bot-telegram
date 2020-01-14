@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "telegram-battery-bot"
+name = "battery-bot-telegram"
 version = "0.1.0"
 description = "Telegram bot that notifies when battery is low"
 authors = ["Tomasz Walotek <tomasz.walotek@gmail.com>"]
@@ -15,7 +15,7 @@ mypy = "^0.750.0"
 black = {version = "^18.3-alpha.0", allow-prereleases = true}
 
 [tool.poetry.scripts]
-batbottg = 'telegram_battery_bot:run_bot'
+batbottg = 'battery_bot_telegram:run_bot'
 
 [build-system]
 requires = ["poetry>=1.0.0"]
