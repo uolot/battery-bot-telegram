@@ -1,12 +1,12 @@
 # Telegram battery bot.
 
-Monitors laptop battery level and sends a message on Telegram when it drop below specified level.
+Monitors laptop battery level and sends a message on Telegram when it drop below specified threshold.
 
 ## Usage:
 
-    batbot -t TELEGRAM_TOKEN -u TELEGRAM_USER [-b BATTERY_THRESHOLD] [-f CHECK_FREQUENCY]
-    batbot -c CONFIG_FILE
-    batbot --help
+    batbottg -t TELEGRAM_TOKEN -u TELEGRAM_USER [-b BATTERY_THRESHOLD] [-f CHECK_FREQUENCY]
+    batbottg -c CONFIG_FILE
+    batbottg --help
 
 ## Options:
 

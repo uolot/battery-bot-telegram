@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "battery-bot-telegram"
-version = "0.1.2"
+version = "0.1.3"
 description = "Telegram bot that notifies when battery is low"
 authors = ["Tomasz Walotek <tomasz.walotek@gmail.com>"]
 readme = "README.md"

@@ -1,9 +1,9 @@
 """Telegram battery bot.
 
 Usage:
-    batbot -t TELEGRAM_TOKEN -u TELEGRAM_USER [-b BATTERY_THRESHOLD] [-f CHECK_FREQUENCY]
-    batbot -c CONFIG_FILE
-    batbot --help
+    batbottg -t TELEGRAM_TOKEN -u TELEGRAM_USER [-b BATTERY_THRESHOLD] [-f CHECK_FREQUENCY]
+    batbottg -c CONFIG_FILE
+    batbottg --help
 
 Options:
     -t, --telegram-token=TELEGRAM_TOKEN         Telegram bot token
