@@ -2,6 +2,10 @@
 
 Monitors laptop battery level and sends a message on Telegram when it drop below specified threshold.
 
+To use it, register a new Telefram bot by talking to [@BotFather](https://core.telegram.org/bots#6-botfather). That will give you a new token, save it.
+Then talk to @userinfobot to obtain your user id.
+Pass the token and user id to the command invocation directly, or store then in the config file.
+
 ## Usage:
 
     batbottg -t TELEGRAM_TOKEN -u TELEGRAM_USER [-b BATTERY_THRESHOLD] [-f CHECK_FREQUENCY]
